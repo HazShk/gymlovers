@@ -12,3 +12,5 @@ https://hazshk.github.io/gymlovers/
 
 ## Contribution
 Made with ❤️ by Hassan Shaikh
+
+### ©️2024 Gym Lovers, Inc 
