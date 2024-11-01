@@ -1,4 +1,4 @@
-# Gym Lovers
+# Gym Lovers Inc.
 
 ## Purpose
 A website that offers fitness training services.
