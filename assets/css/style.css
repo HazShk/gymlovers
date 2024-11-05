@@ -12,11 +12,19 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   padding: 20px 35px;
   background-color: #39a6b2;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header h1 {
@@ -90,6 +98,8 @@ section {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  background-position: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -370,6 +380,7 @@ section {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
   header {
+    position: relative;
     padding-bottom: 0;
     justify-content: center;
   }
